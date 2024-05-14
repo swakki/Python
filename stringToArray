@@ -1,0 +1,18 @@
+# Python program to split string into array of characters using for loop
+
+string = "python"
+list=[]
+
+for i in string:
+    list.append(i)
+
+print(list)
+
+# Given a string and we have to repeat it's M characters N times using python program.
+
+string = "hello Mood"
+n = 3
+
+for i in string:
+    if i == "M":
+        print(i*n)

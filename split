@@ -1,0 +1,36 @@
+str = "Hello World How are you?"
+
+str1 = str.split(" ")
+
+for i in str1:
+    print(f"{i} ( {len(i)} )")
+  
+
+str = "Python is a programming language"
+
+str1 = str.split(" ")
+print(str1)
+
+for i in str1:
+
+    if len(i) % 2 == 0:
+        print(i)
+
+Str = "Hello world"
+
+count = 0
+
+for i in Str:
+    if (i == "a" or
+        i == "A" or 
+        i == "e" or
+        i == "E" or 
+        i == "i" or 
+        i == "I" or 
+        i == "o" or 
+        i == "O" or 
+        i == "U" or 
+        i == "u"):
+        count  += 1
+
+print(count)
